@@ -1,0 +1,61 @@
+* {
+  font-family: 'PT Serif', serif !important;
+  /* animation: fadeIn 1s ease-in-out; */
+}
+
+#root {
+  /* background-color: #f2ece6; */
+  /* background: linear-gradient(90deg, #f5ede0, #e7d8cf); */
+  /* background: linear-gradient(90deg, #be9325, #bb9e59, #f0e9d9); */
+}
+
+/* .apartments_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* max-width: 1200px; */
+  /* margin-left: 80px;
+  margin-bottom: 80px; */
+  /* margin: 60px auto 80px 140px;
+  animation: fadeIn 1s ease-in-out;  */
+/* } */ 
+
+.apartments_cards_alike {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* max-width: 1200px; */
+  /* margin-left: 80px;
+  margin-bottom: 80px; */
+  /* margin: 60px auto 80px 140px; */
+
+}
+
+.apartment_one_card_price {
+  background-color: #0e2536;
+  color: #a1978a;
+}
+
+.rsc-cs {
+  background: #f5f8fa;
+  box-shadow: none;
+}
+.rsc-ts-bubble{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: monospace;
+}
+.rsc-os-option-element{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* .carousel-fade-in {
+  animation: fadeIn 1s ease-in-out; 
+} */
